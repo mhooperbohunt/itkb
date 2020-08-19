@@ -1,7 +1,6 @@
 const path = require('path');
 
 const siteConfig = {
-  customDocsPath: path.basename(__dirname) + '/docs',
   title: 'Bohunt Wokingham IT ', 
   tagline: 'A Document Site for IT Support at Bohunt Wokingham',
   url: 'https://mhooperbohunt.github.io',
