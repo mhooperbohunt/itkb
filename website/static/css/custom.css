@@ -6,6 +6,9 @@
  */
 
 /* your custom css */
+a:hover {
+    color: #f0a806;
+}
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
