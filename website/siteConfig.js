@@ -1,21 +1,21 @@
 const siteConfig = {
-  title: 'Bohunt Wokingham IT ', // Title for your website.
+  title: 'Bohunt Wokingham IT ', 
   tagline: 'A Document Site for IT Support at Bohunt Wokingham',
-  url: 'https://your-docusaurus-test-site.com', // Your website URL
-  baseUrl: '/', // Base URL for your project */
-  // For github.io type URLs, you would set the url and baseUrl like:
-  //   url: 'https://facebook.github.io',
-  //   baseUrl: '/test-site/',
-
+  url: 'https://mhooperbohunt.github.io',
+  baseurl: '/itkb',
+  projectName: 'itkb',
+  organizationName: 'mhooperbohunt',
+  projectName: 'bohunt-wokingham-docs',
+  organizationName: 'Bohunt Wokingham',
   
   headerLinks: [
     {doc: 'ad', label: 'Docs'},
     {blog: true, label: 'Blog'},
   ],
 
-  headerIcon: 'img/logo.svg',
-  footerIcon: 'img/logo.svg',
-  favicon: 'img/logo.svg',
+  headerIcon: 'img/favicon.ico',
+  footerIcon: 'img/favicon.ico',
+  favicon: 'img/favicon.ico',
 
   colors: {
     primaryColor: '#000000',
