@@ -1,9 +1,11 @@
 {
-  "name": "bohunt-wokingham-it-docs",
-  "version": "1.0.0",
-  "author": "Mac Hooper",
-  "authour_url": "https://github.com/macdevelops",
-  "project_repo": "https://github.com/mhooperbohunt/itkb"
+  "information": {
+    "name": "bohunt-wokingham-it-docs",
+    "version": "1.0.0",
+    "author": "Mac Hooper",
+    "authoururl": "https://github.com/macdevelops",
+    "repo": "https://github.com/mhooperbohunt/itkb"
+  },
   "scripts": {
     "examples": "docusaurus-examples",
     "start": "docusaurus-start",

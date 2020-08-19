@@ -65,9 +65,8 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html')}>Example Link</Button>
-            <Button href={docUrl('doc2.html')}>Example Link 2</Button>
+            <Button href={docUrl('ad.html')}>IT Docs</Button>
+            <Button href={docUrl('doc1.html')}>User Docs</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -97,8 +96,8 @@ class Index extends React.Component {
       <div
         className="productShowcaseSection paddingBottom"
         style={{textAlign: 'center'}}>
-        <h2>Feature Callout</h2>
-        <MarkdownBlock>These are features of this project</MarkdownBlock>
+        <h2>Can't Find what you need?</h2>
+        <MarkdownBlock>Contact IT Support by [Clicking Here](mailto:itsupport@bohuntwokingham.com)</MarkdownBlock>
       </div>
     );
 
@@ -150,16 +149,16 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: 'This is the content of my feature',
-            image: `${baseUrl}img/undraw_react.svg`,
+            content: 'Documents containing information on anything you need to know about IT at Bohunt Wokingham.',
+            image: `${baseUrl}img/undraw_docs.svg`,
             imageAlign: 'top',
-            title: 'Feature One',
+            title: 'Detailed Documentation',
           },
           {
-            content: 'The content of my second feature',
-            image: `${baseUrl}img/undraw_operating_system.svg`,
+            content: 'Ensuring you get the ifnormation you need as quikcly as possible.',
+            image: `${baseUrl}img/undraw_loading.svg`,
             imageAlign: 'top',
-            title: 'Feature Two',
+            title: 'Fast Loading',
           },
         ]}
       </Block>
@@ -201,10 +200,6 @@ class Index extends React.Component {
         <div className="mainContainer">
           <Features />
           <FeatureCallout />
-          <LearnHow />
-          <TryOut />
-          <Description />
-          <Showcase />
         </div>
       </div>
     );
