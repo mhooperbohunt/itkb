@@ -8,6 +8,8 @@ const siteConfig = {
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',erbohunt',
+  projectName: 'itkb',
+  organizationName: 'mhooperbohunt',
   projectName: 'bohunt-wokingham-docs',
   organizationName: 'Bohunt Wokingham',
   
@@ -20,7 +22,13 @@ const siteConfig = {
   headerIcon: 'img/logo.svg',
   footerIcon: 'img/logo.svg',
   favicon: 'img/logo.svg',
+    {doc: 'ad', label: 'Docs'},
+    {blog: true, label: 'Blog'},
+  ],
 
+  headerIcon: 'img/favicon.ico',
+  footerIcon: 'img/favicon.ico',
+  favicon: 'img/favicon.ico',
   colors: {
     primaryColor: '#000000',
     secondaryColor: '#f0a806',
