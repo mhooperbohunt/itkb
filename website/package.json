@@ -15,5 +15,8 @@
     "version": "docusaurus-version",
     "rename-version": "docusaurus-rename-version",
     "serve": "docusaurus serve"
+  },
+  "dependencies": {
+    "now": "^19.2.0"
   }
 }

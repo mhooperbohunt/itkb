@@ -3,9 +3,9 @@ const path = require('path');
 const siteConfig = {
   title: 'Bohunt Wokingham IT ', 
   tagline: 'A Document Site for IT Support at Bohunt Wokingham',
-  url: 'https://mhooperbohunt.github.io',
-  baseurl: '/itkb',
-  projectName: 'itkb',
+  url: 'https://mhooperbohunt.github.io/',
+  baseurl: '/',
+  projectName: 'mhooperbohunt.github.io',
   organizationName: 'mhooperbohunt',
   projectName: 'bohunt-wokingham-docs',
   organizationName: 'Bohunt Wokingham',

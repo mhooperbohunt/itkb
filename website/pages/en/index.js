@@ -155,7 +155,7 @@ class Index extends React.Component {
             title: 'Detailed Documentation',
           },
           {
-            content: 'Ensuring you get the ifnormation you need as quikcly as possible.',
+            content: 'Ensuring you get the ifnormation you need as quickly as possible.',
             image: `${baseUrl}img/undraw_loading.svg`,
             imageAlign: 'top',
             title: 'Fast Loading',
