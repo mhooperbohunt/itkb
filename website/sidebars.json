@@ -1,6 +1,6 @@
 {
   "docs": {
-    "Test": ["doc1", "doc2", "doc3"],
+    "User": ["doc1", "doc2", "doc3"],
     "Windows Server": ["ad", "gp", "switches", "servers"],
     "Google": ["gsync", "ggroups", "gadmin", "gexporting", "greports", "calsync"],
     "Printers": ["printportal", "prinsync", "printaccounts", "toners", "jamming"],
@@ -19,8 +19,5 @@
     "Computers": ["imaging", "naming", "laptopsup", "pxeboot"],
     "Staff ID's": ["idprinting"],
     "Powershell": ["scripts"]
-  },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
   }
 }
