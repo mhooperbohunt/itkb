@@ -6,10 +6,19 @@
  */
 
 /* your custom css */
+a {
+    text-decoration: underline;
+}
 a:hover {
     color: #f0a806;
 }
+.button:hover {
+    background: #f0a806;
+}
 
+.hero, .data {
+    display: grid; place-items: center;
+}
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
 

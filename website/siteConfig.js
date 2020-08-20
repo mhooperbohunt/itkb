@@ -12,13 +12,14 @@ const siteConfig = {
   organizationName: 'Bohunt Wokingham',
   
   headerLinks: [
-    {doc: 'ad', label: 'Docs'},
+    {doc: 'ad', label: 'IT'},
+    {page: 'inventory', label: 'Inventory'},
     {blog: true, label: 'Blog'},
   ],
 
-  headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
-  favicon: 'img/favicon.ico',
+  headerIcon: 'img/logo.svg',
+  footerIcon: 'img/logo.svg',
+  favicon: 'img/logo.svg',
 
   colors: {
     primaryColor: '#000000',
